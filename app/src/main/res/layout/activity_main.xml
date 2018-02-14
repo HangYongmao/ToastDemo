@@ -13,7 +13,15 @@
             android:id="@+id/toast_btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="显示默认Toast" />
+            android:text="显示默认Toast"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toast_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义位置的Toast"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 
